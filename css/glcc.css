@@ -1,0 +1,164 @@
+/* 
+ * Great Lever Chess Club - Website CSS
+ * Author: Jonathan Lonsdale
+ * 10-Oct-2005
+ */
+
+body	{background-color: #ffffff;
+	margin: 0px;}
+
+td, input, select, textarea, p, div, li, ul, ol, h1, h2, h3, a
+	{font-family: arial,verdana,helvetica;
+	/* line-height: 120%; */}
+
+td, p, div, li, ul, ol
+	{color: #000000;}
+
+h1, h2, h3
+	{color: #000000;}
+
+input, select, textarea
+	{color: #000000;}
+
+td, p, div, li, ul, ol, input, select, textarea
+	{font-size: 10pt;}
+
+em	{font-weight: bold;
+	font-style: normal;}
+
+h1	{font-size: 12pt;}
+h2	{font-size: 11pt;}
+h3	{font-size: 10pt;}
+
+span.bolton {font-weight: bold; color: green}
+span.mcr1 {font-weight: bold; color: red}
+span.mcr2, span.elancs {font-weight: bold; color: blue}
+
+.tdRow1 h1, .tdRow1 h2, .tdRow1 h3 {line-height: 100%; margin-left: 10px; margin-top: 10px; margin-bottom: 10px;}
+
+a.navMain {font-size: 10pt;
+	color: #000080
+	text-decoration: none;
+	font-weight: normal;}
+
+a.navMain:link		{color: #000080; text-decoration: none;}
+a.navMain:visited	{color: #000080; text-decoration: none;}
+a.navMain:active	{color: #000080; text-decoration: underline;}
+a.navMain:hover		{color: #000080; text-decoration: underline;}
+
+a.navMainOn {font-size: 10pt;
+	color: #000000
+	text-decoration: none;
+	font-weight: bold;}
+
+a.navMainOn:link, a.navMainOn:visited
+	{color: #000000; text-decoration: none;}
+a.navMainOn:active, a.navMainOn:hover
+	{color: #000000; text-decoration: underline;}
+
+a:link		{color: #0000f0; text-decoration: underline;}
+a:visited	{color: #404040; text-decoration: underline;}
+a:active	{color: #0000f0; text-decoration: underline;}
+a:hover		{color: #0000f0; text-decoration: underline;}
+
+.tdDivider	{background-color: #8080d0; background-image: url('images/t.gif')}
+.tdRow1		{background-color: #c0c0f0; background-image: url('images/t.gif')}
+.tdRow2		{background-color: #ffffff; background-image: url('images/t.gif')}
+
+/*** general info tables ***/
+table.general {
+	font-family: arial, helvetica, sans-serif;
+	font-size : 10pt;
+	color: #000000;
+	width: 90%;
+	
+}
+
+table.general tr th {
+	color: #ffffff;
+	background-color: #8080c9;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+	border: solid black 1px;
+	padding: 4px;
+}
+
+table.general tr td
+{
+	color: #000000;
+	#background-color: #efefff;
+	background-color: #ffffff;
+	vertical-align: top;
+	border: solid black 1px;
+	padding: 4px;
+}
+
+table.general tr td.field_desc
+{
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #8080c9;
+	vertical-align: top;
+	border: solid black 1px;
+	padding: 4px;
+}
+
+/*** results info tables ***/
+table.results {
+	font-family: arial, helvetica, sans-serif;
+	font-size : 10pt;
+	color: #000000;
+	width: 90%;
+	
+}
+
+table.results tr th {
+	color: #ffffff;
+	background-color: #8080c9;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: center;
+	border: solid black 1px;
+	padding: 4px;
+}
+
+table.results tr td
+{
+	color: #000000;
+	#background-color: #efefff;
+	background-color: #ffffff;
+	vertical-align: top;
+	border: solid black 1px;
+	padding: 4px;
+	text-align: center;
+}
+
+
+/*** announcement tables ***/
+table.announce {
+	font-family: arial, helvetica, sans-serif;
+	font-size : 10pt;
+	color: #000000;
+	width: 90%;
+}
+
+table.announce tr th {
+	color: #ffffff;
+	background-color: #8080c9;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+	border: solid black 1px;
+	padding: 4px;
+}
+
+table.announce tr td
+{
+	color: #000000;
+	#background-color: #efefff;
+	background-color: #ffffff;
+	vertical-align: top;
+	border: solid black 1px;
+	padding: 10px;
+}
